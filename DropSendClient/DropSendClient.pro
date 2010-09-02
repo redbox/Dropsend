@@ -28,7 +28,8 @@ SOURCES += main.cpp\
     remoteserveraccountdao.cpp \    
     remoteserverplandao.cpp \
     client.cpp \
-    dropsendservice.cpp
+    dropsendservice.cpp \
+    debughelper.cpp
 
 HEADERS  += mainwindow.h \
     user.h \
@@ -55,6 +56,7 @@ HEADERS  += mainwindow.h \
     singleton.h \
     iplandao.h \
     remoteserverplandao.h \
-    client.h
+    client.h \
+    debughelper.h
 
 FORMS    += mainwindow.ui

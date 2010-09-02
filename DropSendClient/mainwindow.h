@@ -15,10 +15,13 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+    bool validateForm();
+
 private:
     Ui::MainWindow *ui;
 
 private slots:
+    void on_pushButton_5_clicked();
     void on_pushButton_4_clicked();
     void on_pushButton_3_clicked();
     void on_pushButton_clicked();
