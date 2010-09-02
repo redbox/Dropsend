@@ -108,3 +108,18 @@ void MainWindow::on_pushButton_7_clicked()
     }
     QMessageBox::information(this, "DropsendClient", "Files has been sent");
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    QMessageBox::information(this, "DropsendClient", "Not implemented yet");
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    QMessageBox::information(this, "DropsendClient", "Not implemented yet");
+}
+
+void MainWindow::on_pushButton_4_clicked()
+{
+    QMessageBox::information(this, "DropsendClient", "Not implemented yet");
+}
