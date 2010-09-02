@@ -1,6 +1,11 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include <QFileDialog>
+#include <QTableWidgetItem>
+#include <QFile>
+#include <QMessageBox>
+
 #include "dropsendservice.h"
 
 using namespace dropsend::data;
@@ -12,6 +17,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    ui->filesTable->setColumnWidth(0, 300);
 }
 
 MainWindow::~MainWindow()
@@ -19,6 +26,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+// debug info
 void MainWindow::on_pushButton_6_clicked()
 {
     if (service->login("user", "password")) {
@@ -36,6 +44,7 @@ void MainWindow::on_pushButton_6_clicked()
     }
 }
 
+// debug info
 void MainWindow::on_pushButton_8_clicked()
 {
     if (service->login("user", "password")) {
@@ -55,6 +64,7 @@ void MainWindow::on_pushButton_8_clicked()
     }
 }
 
+// debug info
 void MainWindow::on_pushButton_9_clicked()
 {
     if (service->login("user", "password")) {
@@ -71,4 +81,30 @@ void MainWindow::on_pushButton_9_clicked()
             }
         }
     }
+}
+
+//test
+void MainWindow::on_pushButton_2_clicked()
+{
+    QString fileName = QFileDialog::getOpenFileName(this, "Open file", "", "All Files (*.*)");
+    if (!fileName.isEmpty()) {
+        int currentRowIndex = ui->filesTable->rowCount();
+        ui->filesTable->insertRow(currentRowIndex);
+
+        QTableWidgetItem *file_name_column = new QTableWidgetItem(fileName);
+        ui->filesTable->setItem(currentRowIndex, 0, file_name_column);
+
+        QFile* file = new QFile(fileName);
+        float file_size = (file->size() / 1000.0);
+        QTableWidgetItem *file_size_column = new QTableWidgetItem(QString::number(file_size) + "KB");
+        ui->filesTable->setItem(currentRowIndex, 1, file_size_column);
+    }
+}
+
+void MainWindow::on_pushButton_7_clicked()
+{
+    while (ui->filesTable->rowCount() > 0) {
+        ui->filesTable->removeRow(0);
+    }
+    QMessageBox::information(this, "DropsendClient", "Files has been sent");
 }

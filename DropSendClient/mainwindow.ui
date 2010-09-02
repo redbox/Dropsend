@@ -36,7 +36,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -248,7 +248,7 @@
                <number>0</number>
               </property>
               <item>
-               <widget class="QPlainTextEdit" name="plainTextEdit"/>
+               <widget class="QPlainTextEdit" name="messageText"/>
               </item>
              </layout>
             </widget>
@@ -355,7 +355,7 @@
             </spacer>
            </item>
            <item>
-            <widget class="QTableWidget" name="tableWidget">
+            <widget class="QTableWidget" name="filesTable">
              <property name="columnCount">
               <number>3</number>
              </property>
