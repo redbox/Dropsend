@@ -3,7 +3,7 @@
 
 #include <QString>
 
-#include <entitywithid.h>
+#include "entitywithid.h"
 
 namespace dropsend {
     namespace data {

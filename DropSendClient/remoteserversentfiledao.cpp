@@ -26,6 +26,8 @@ QList<SentFile*> RemoteServerSentFileDAO::getByUserId(int id) const {
 }
 
 SentFile* RemoteServerSentFileDAO::getById(int id) const{
-    return new SentFile();
+    SentFile* file = new SentFile();
+    file->name = "thinking in c++";
+    return file;
 }
 

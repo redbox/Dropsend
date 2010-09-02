@@ -17,39 +17,49 @@ TEMPLATE = app
 
 SOURCES += \
     DAOTests.cpp \
-    user.cpp \
-    sentfile.cpp \
-    remoteserveruserdao.cpp \
-    remoteserversentfiledao.cpp \
-    remoteserverreceivedfiledao.cpp \
-    remoteserverplandao.cpp \
-    remoteserveraccountdao.cpp \
-    receivedfile.cpp \
-    plan.cpp \
-    filewithsender.cpp \
-    file.cpp \
-    entitywithid.cpp \
-    account.cpp
+    ../DropSendClient/user.cpp \
+    ../DropSendClient/sentfile.cpp \
+    ../DropSendClient/remoteserveruserdao.cpp \
+    ../DropSendClient/remoteserversentfiledao.cpp \
+    ../DropSendClient/remoteserverreceivedfiledao.cpp \
+    ../DropSendClient/remoteserverplandao.cpp \
+    ../DropSendClient/remoteserverentityfactory.cpp \
+    ../DropSendClient/remoteserveraccountdao.cpp \
+    ../DropSendClient/receivedfile.cpp \
+    ../DropSendClient/plan.cpp \
+    ../DropSendClient/filewithsender.cpp \
+    ../DropSendClient/file.cpp \
+    ../DropSendClient/entitywithid.cpp \
+    ../DropSendClient/dropsendservice.cpp \
+    ../DropSendClient/client.cpp \
+    ../DropSendClient/account.cpp \
+    ../DropSendClient/abstractentityfactory.cpp
+
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
 
 HEADERS += \
-    user.h \
-    sentfile.h \
-    remoteserveruserdao.h \
-    remoteserversentfiledao.h \
-    remoteserverreceivedfiledao.h \
-    remoteserverplandao.h \
-    remoteserveraccountdao.h \
-    receivedfile.h \
-    plan.h \
-    iuserrelateddao.h \
-    iuserdao.h \
-    isentfiledao.h \
-    ireceivedfiledao.h \
-    iplandao.h \
-    ientitydao.h \
-    iaccountdao.h \
-    filewithsender.h \
-    file.h \
-    entitywithid.h \
-    account.h
+    ../DropSendClient/user.h \
+    ../DropSendClient/singleton.h \
+    ../DropSendClient/sentfile.h \
+    ../DropSendClient/remoteserveruserdao.h \
+    ../DropSendClient/remoteserversentfiledao.h \
+    ../DropSendClient/remoteserverreceivedfiledao.h \
+    ../DropSendClient/remoteserverplandao.h \
+    ../DropSendClient/remoteserverentityfactory.h \
+    ../DropSendClient/remoteserveraccountdao.h \
+    ../DropSendClient/receivedfile.h \
+    ../DropSendClient/plan.h \
+    ../DropSendClient/iuserrelateddao.h \
+    ../DropSendClient/iuserdao.h \
+    ../DropSendClient/isentfiledao.h \
+    ../DropSendClient/ireceivedfiledao.h \
+    ../DropSendClient/iplandao.h \
+    ../DropSendClient/ientitydao.h \
+    ../DropSendClient/iaccountdao.h \
+    ../DropSendClient/filewithsender.h \
+    ../DropSendClient/file.h \
+    ../DropSendClient/entitywithid.h \
+    ../DropSendClient/dropsendservice.h \
+    ../DropSendClient/client.h \
+    ../DropSendClient/account.h \
+    ../DropSendClient/abstractentityfactory.h
