@@ -453,14 +453,14 @@
               <item>
                <widget class="QPushButton" name="pushButton_8">
                 <property name="text">
-                 <string>fetch user sent files</string>
+                 <string>fetch user's sent files</string>
                 </property>
                </widget>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_9">
                 <property name="text">
-                 <string>fetch user receive files</string>
+                 <string>fetch user's receive files</string>
                 </property>
                </widget>
               </item>

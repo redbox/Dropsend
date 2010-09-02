@@ -72,7 +72,7 @@ void MainWindow::on_pushButton_7_clicked()
     ui->mailMessageText->clear();
     ui->mailReceiverEdit->clear();
     ui->mailSubjectEdit->clear();
-    QMessageBox::information(this, "DropSend Direct Qt Version", "Files has been sent");
+    QMessageBox::information(this, "DropSend Direct Qt Version", "Files have been sent");
 }
 
 void MainWindow::on_pushButton_clicked()

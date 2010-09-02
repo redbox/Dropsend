@@ -27,7 +27,7 @@ void DebugHelper::fetchDebugUserInfo(QPlainTextEdit* debugPlainTextEdit) {
 void DebugHelper::fetchDebugAccountInfo(QPlainTextEdit* debugPlainTextEdit) {
     dropsend::DropSendService* service = dropsend::DropSendServiceSingleton::getInstance();
     if (service->login("user", "password")) {
-        debugPlainTextEdit->appendPlainText("currrent user's account:");
+        debugPlainTextEdit->appendPlainText("current user's account:");
         debugPlainTextEdit->appendPlainText("{");
         debugPlainTextEdit->appendPlainText(
                 "    account_id: " + service->getCurrentClientModel()->getAccount()->getId());
