@@ -1,7 +1,7 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 
-#include ".\..\entitywithid.h"
+#include "./../entitywithid.h"
 
 namespace dropsend {
     namespace data {

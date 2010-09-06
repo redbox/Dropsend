@@ -3,7 +3,7 @@
 
 #include <QString>
 
-#include ".\..\dao\ientitydao.h"
+#include "./../dao/ientitydao.h"
 
 namespace dropsend {
     namespace data {

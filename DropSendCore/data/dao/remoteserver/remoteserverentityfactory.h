@@ -1,7 +1,7 @@
 #ifndef REMOTESERVERENTITYFACTORY_H
 #define REMOTESERVERENTITYFACTORY_H
 
-#include ".\..\..\abstractentityfactory.h"
+#include "./../../abstractentityfactory.h"
 
 namespace dropsend {
     namespace data {

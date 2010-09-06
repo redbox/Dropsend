@@ -3,9 +3,9 @@
 
 #include <QList>
 
-#include ".\..\entitywithid.h"
+#include "./../entitywithid.h"
 #include "ientitydao.h"
-#include ".\..\entities\user.h"
+#include "./../entities/user.h"
 
 namespace dropsend {
     namespace data {

@@ -1,8 +1,8 @@
 #ifndef REMOTESERVERSENTFILEDAO_H
 #define REMOTESERVERSENTFILEDAO_H
 
-#include ".\..\isentfiledao.h"
-#include ".\..\..\entities\sentfile.h"
+#include "./../isentfiledao.h"
+#include "./../../entities/sentfile.h"
 
 namespace dropsend {
     namespace data {

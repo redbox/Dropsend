@@ -1,8 +1,8 @@
 #ifndef REMOTESERVERPLANDAO_H
 #define REMOTESERVERPLANDAO_H
 
-#include ".\..\iplandao.h"
-#include ".\..\..\entities\plan.h"
+#include "./../iplandao.h"
+#include "./../../entities/plan.h"
 
 namespace dropsend {
     namespace data {

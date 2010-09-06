@@ -1,11 +1,11 @@
 #ifndef ABSTRACTENTITYFACTORY_H
 #define ABSTRACTENTITYFACTORY_H
 
-#include ".\dao\iuserdao.h"
-#include ".\dao\ireceivedfiledao.h"
-#include ".\dao\isentfiledao.h"
-#include ".\dao\iaccountdao.h"
-#include ".\dao\iplandao.h"
+#include "./dao/iuserdao.h"
+#include "./dao/ireceivedfiledao.h"
+#include "./dao/isentfiledao.h"
+#include "./dao/iaccountdao.h"
+#include "./dao/iplandao.h"
 
 namespace dropsend {
     namespace data {

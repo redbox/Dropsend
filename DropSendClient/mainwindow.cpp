@@ -6,7 +6,7 @@
 #include <QFile>
 #include <QMessageBox>
 
-#include "./debug/debughelper.h"
+#include ".\debug\debughelper.h"
 
 using namespace dropsend::debug;
 

@@ -2,7 +2,7 @@
 #define IACCOUNTDAO_H
 
 #include "iuserrelateddao.h"
-#include ".\..\entities\account.h"
+#include "./../entities/account.h"
 
 namespace dropsend {
     namespace data {

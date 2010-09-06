@@ -2,7 +2,7 @@
 #define IPLANDAO_H
 
 #include "ientitydao.h"
-#include ".\..\entities\plan.h"
+#include "./../entities/plan.h"
 
 namespace dropsend {
     namespace data {

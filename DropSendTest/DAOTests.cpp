@@ -1,8 +1,8 @@
 #include <QtTest/QtTest>
 
-#include "./../DropSendCore/data/dao/remoteserver/remoteserveruserdao.h"
-#include "./../DropSendCore/data/dao/remoteserver/remoteserverplandao.h"
-#include "./../DropSendCore/data/dao/remoteserver/remoteserversentfiledao.h"
+#include ".\..\DropSendCore\data\dao\remoteserver\remoteserveruserdao.h"
+#include ".\..\DropSendCore\data\dao\remoteserver\remoteserverplandao.h"
+#include ".\..\DropSendCore\data\dao\remoteserver\remoteserversentfiledao.h"
 
 using namespace dropsend::data::dao::remoteserver;
 using namespace dropsend::data::entities;

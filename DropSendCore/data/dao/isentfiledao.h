@@ -2,7 +2,7 @@
 #define ISENTFILEDAO_H
 
 #include "iuserrelateddao.h"
-#include ".\..\entities\sentfile.h"
+#include "./../entities/sentfile.h"
 
 namespace dropsend {
     namespace data {

@@ -2,7 +2,7 @@
 #define IRECEIVEDFILEDAO_H
 
 #include "iuserrelateddao.h"
-#include ".\..\entities\receivedfile.h"
+#include "./../entities/receivedfile.h"
 
 namespace dropsend {
     namespace data {

@@ -4,9 +4,9 @@
 #include <QString>
 #include <QList>
 
-#include ".\utils\singleton.h"
-#include ".\data\dao\remoteserver\remoteserverentityfactory.h"
-#include ".\data\entities\client.h"
+#include "./utils/singleton.h"
+#include "./data/dao/remoteserver/remoteserverentityfactory.h"
+#include "./data/entities/client.h"
 
 namespace dropsend {    
     using namespace data;

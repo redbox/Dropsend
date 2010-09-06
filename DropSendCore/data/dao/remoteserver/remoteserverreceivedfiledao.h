@@ -3,8 +3,8 @@
 
 #include <QList>
 
-#include ".\..\ireceivedfiledao.h"
-#include ".\..\..\entities\receivedfile.h"
+#include "./../ireceivedfiledao.h"
+#include "./../../entities/receivedfile.h"
 
 namespace dropsend {
     namespace data {

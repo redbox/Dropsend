@@ -1,6 +1,6 @@
 #include "dropsendservice.h"
 
-#include ".\data\entities\user.h"
+#include "./data/entities/user.h"
 
 using namespace dropsend;
 using namespace dropsend::data;

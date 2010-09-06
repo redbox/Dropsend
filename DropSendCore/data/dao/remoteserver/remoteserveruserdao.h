@@ -1,8 +1,8 @@
 #ifndef REMOTESERVERUSERDAO_H
 #define REMOTESERVERUSERDAO_H
 
-#include ".\..\iuserdao.h"
-#include ".\..\..\entities\user.h"
+#include "./../iuserdao.h"
+#include "./../../entities/user.h"
 
 namespace dropsend {
     namespace data {

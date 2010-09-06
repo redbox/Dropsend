@@ -1,7 +1,7 @@
 #ifndef IENTITYDAO_H
 #define IENTITYDAO_H
 
-#include ".\..\entitywithid.h"
+#include "./../entitywithid.h"
 
 namespace dropsend {
     namespace data {

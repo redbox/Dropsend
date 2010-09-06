@@ -3,7 +3,7 @@
 
 #include <QString>
 
-#include ".\..\filewithsender.h"
+#include "./../filewithsender.h"
 
 namespace dropsend {
     namespace data {

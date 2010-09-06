@@ -1,7 +1,7 @@
 #ifndef RECEIVEDFILE_H
 #define RECEIVEDFILE_H
 
-#include ".\..\filewithsender.h"
+#include "./../filewithsender.h"
 
 namespace dropsend {
     namespace data {

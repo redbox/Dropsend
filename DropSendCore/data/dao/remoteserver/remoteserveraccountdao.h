@@ -3,8 +3,8 @@
 
 #include <QList>
 
-#include ".\..\iaccountdao.h"
-#include ".\..\..\entities\account.h"
+#include "./../iaccountdao.h"
+#include "./../../entities/account.h"
 
 namespace dropsend {
     namespace data {
