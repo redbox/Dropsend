@@ -13,7 +13,7 @@
  <data>
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
-   <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РќР°СЃС‚РѕР»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ</value>
+   <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Настольный компьютер</value>
    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Target.DesktopTarget</value>
    <value key="ProjectExplorer.Target.ActiveBuildConfiguration" type="int">0</value>
    <value key="ProjectExplorer.Target.ActiveRunConfiguration" type="int">0</value>
@@ -24,7 +24,7 @@
      <valuelist key="QtProjectManager.QMakeBuildStep.QMakeArguments" type="QVariantList"/>
     </valuemap>
     <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.1" type="QVariantMap">
-     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РЎР±РѕСЂРєР°</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Сборка</value>
      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
      <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">false</value>
      <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList"/>
@@ -32,7 +32,7 @@
     </valuemap>
     <value key="ProjectExplorer.BuildConfiguration.BuildStepsCount" type="int">2</value>
     <valuemap key="ProjectExplorer.BuildConfiguration.CleanStep.0" type="QVariantMap">
-     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РЎР±РѕСЂРєР°</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Сборка</value>
      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
      <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">true</value>
      <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList">
@@ -43,7 +43,7 @@
     <value key="ProjectExplorer.BuildConfiguration.CleanStepsCount" type="int">1</value>
     <value key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment" type="bool">false</value>
     <valuelist key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges" type="QVariantList"/>
-    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РћС‚Р»Р°РґРєР°</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Отладка</value>
     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4BuildConfiguration</value>
     <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration" type="int">2</value>
     <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildDirectory" type="QString">D:/Qt/workspace/DropSendClient-build-desktop</value>
@@ -58,7 +58,7 @@
      <valuelist key="QtProjectManager.QMakeBuildStep.QMakeArguments" type="QVariantList"/>
     </valuemap>
     <valuemap key="ProjectExplorer.BuildConfiguration.BuildStep.1" type="QVariantMap">
-     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РЎР±РѕСЂРєР°</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Сборка</value>
      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
      <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">false</value>
      <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList"/>
@@ -66,7 +66,7 @@
     </valuemap>
     <value key="ProjectExplorer.BuildConfiguration.BuildStepsCount" type="int">2</value>
     <valuemap key="ProjectExplorer.BuildConfiguration.CleanStep.0" type="QVariantMap">
-     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">РЎР±РѕСЂРєР°</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Сборка</value>
      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.MakeStep</value>
      <value key="Qt4ProjectManager.MakeStep.Clean" type="bool">true</value>
      <valuelist key="Qt4ProjectManager.MakeStep.MakeArguments" type="QVariantList">
@@ -77,7 +77,7 @@
     <value key="ProjectExplorer.BuildConfiguration.CleanStepsCount" type="int">1</value>
     <value key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment" type="bool">false</value>
     <valuelist key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges" type="QVariantList"/>
-    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Р РµР»РёР·</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Релиз</value>
     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">Qt4ProjectManager.Qt4BuildConfiguration</value>
     <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration" type="int">0</value>
     <value key="Qt4ProjectManager.Qt4BuildConfiguration.BuildDirectory" type="QString">D:/Qt/workspace/DropSendClient-build-desktop</value>
