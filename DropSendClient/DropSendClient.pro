@@ -11,7 +11,7 @@ TEMPLATE = app
 
 #include dropsend library
 INCLUDEPATH += ../DropSendCore/
-LIBS += ../DropSendCore-build-desktop/debug/libDropSendCore.a
+LIBS += ../DropSendCore-build-desktop/libDropSendCore.a
 
 SOURCES += main.cpp\
         mainwindow.cpp

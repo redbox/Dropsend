@@ -1,4 +1,6 @@
-
-/DropSendTest-build-desktop
-/DropSendCore-build-desktop
-/DropSendClient-build-desktop
+*.a
+*.o
+*.moc
+DropSendClient-build-desktop/
+DropSendTest-build-desktop/
+DropSendCore-build-desktop/
